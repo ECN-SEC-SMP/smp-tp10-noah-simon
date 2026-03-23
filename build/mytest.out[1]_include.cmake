@@ -1,0 +1,5 @@
+if(EXISTS "/home/noah/Documents/centraleNantes/SEMESTER1/SMP/tp/smp-tp10-noah-simon/build/mytest.out[1]_tests.cmake")
+  include("/home/noah/Documents/centraleNantes/SEMESTER1/SMP/tp/smp-tp10-noah-simon/build/mytest.out[1]_tests.cmake")
+else()
+  add_test(mytest.out_NOT_BUILT mytest.out_NOT_BUILT)
+endif()
